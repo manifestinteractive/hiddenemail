@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Manifest Interactive :: Hidden E-mail</title>
+
+	<!-- //////////////////////////////////////////////////////////////////////////////////////////////
+         __  __             _  __          _      ___       _                      _   _
+        |  \/  | __ _ _ __ (_)/ _| ___ ___| |_   |_ _|_ __ | |_ ___ _ __ __ _  ___| |_(_)_   _____
+        | |\/| |/ _` | '_ \| | |_ / _ Y __| __|   | || '_ \| __/ _ \ '__/ _` |/ __| __| \ \ / / _ \
+        | |  | | (_| | | | | |  _|  __|__ \ |_    | || | | | ||  __/ | | (_| | (__| |_| |\ V /  __/
+        |_|  |_|\__,_|_| |_|_|_|  \___|___/\__|  |___|_| |_|\__\___|_|  \__,_|\___|\__|_| \_/ \___|
+		
+	Please feel free to learn what you wish from our source code :)
+
+	 ////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="keywords" content="Manifest, Interactive, Media, Custom, Applications, Free, Tools, Email, Pantone, Converter, CSS" />
+	<meta name="description" content="These are some of the tools we created that we use regularly. Please feel free to share them with your friends and co-workers." />
+
+	<meta name="author" content="Manifest Interactive" />
+	<meta name="revisit-after" content="1 week" />
+	<meta name="robots" content="index,follow" />
+	<meta name="googlebot" content="index,follow" />
+	<meta name="company" content="Manifest Interactive" />
+	<meta name="language" content="EN" />
+	<meta name="content-language" content="english" />
+	<meta name="copyright" content="Manifest Interactive" />
+	<meta name="rating" content="general" />
+
+	<meta name="coverage" content="worldwide" />
+	<meta name="resource-type" content="document" />
+	<meta name="rating" content="general" />
+	<meta http-equiv="imagetoolbar" content="no" />
+
+	<script type="text/javascript" language="JavaScript">function dc(s){c='';for (i=0;i<s.length;i++){c+=String.fromCharCode(s.charCodeAt(i)-1);}document.write(c)}</script>
+	<script type="text/javascript" language="javascript" src="http://www.manifestinteractive.com/mint/?js"></script>
+	<script type="text/javascript" src="http://shots.snap.com/snap_shots.js?ap=1&amp;key=ef8b1c46abfd2e9661bbe6c92997cab4&amp;sb=0&amp;th=ice&amp;cl=0&amp;si=0&amp;po=0&amp;df=1&amp;oi=0&amp;size=large&amp;lang=en-us&amp;domain=www.manifestinteractive.com"></script>
+	
+	<link rel="shortcut icon" href="http://www.manifestinteractive.com/favicon.ico" type="image/x-icon" />
+	<link rel="start" href="http://www.manifestinteractive.com" title="Home" />
+	
+	<style type="text/css">
+	<!--
+	body,td,th {
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 10px;
+		color: #000000;
+	}
+	input,select,textarea {
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 10px;
+		color: #000000;
+		background-color:#FFFFFF;
+		border-width:thin;
+		border-color:#000000;
+		padding:2px;
+	}
+	body {
+		background-color: #7889B6;
+	}
+	a:link {
+		color: #455581;
+		text-decoration: underline;
+	}
+	a:visited {
+		text-decoration: underline;
+		color: #455581;
+	}
+	a:hover {
+		text-decoration: none;
+		color: #7889B6;
+	}
+	a:active {
+		text-decoration: underline;
+		color: #455581;
+	}
+	-->
+	</style>
+	
+</head>
+<body>
+<form name="f1" onSubmit="return false;" action="" method="post">
+  <br>
+  <br>
+  <table align="center" bgcolor="#000000" border="0" cellpadding="1" cellspacing="0" width="500">
+    <tbody><tr>
+      <td><table align="center" bgcolor="#e7ebf6" border="0" cellpadding="0" cellspacing="5" width="500">
+          <tbody>
+            <tr>
+              <td valign="top"><script language="JavaScript" type="text/javascript">function en(s){c='';for (i=0;i<s.length;i++){c+=String.fromCharCode(s.charCodeAt(i)+1);}return c;}</script>
+                <script language="JavaScript" type="text/javascript">function sdc(s){c='';for (i=0;i<s.length;i++){c+=String.fromCharCode(s.charCodeAt(i)-1);}return c}</script>
+                <script language="JavaScript" type="text/javascript">
+					function createmail(eform)
+					{
+						r = '';
+						if (eform.email)
+							e = eform.email.value;
+						if (eform.linktext)
+							l = eform.linktext.value;
+						if (eform.subject)
+							s = eform.subject.value;
+						if (eform.class)
+							c = eform.class.value;
+						if (!e || !l)
+						{
+							alert ('Error\nBoth the e-mail and the linking text field must be filled in');
+							return ;
+						}
+						if (s)
+							r = en('<a href="mailto:'+e+'?subject='+s+'" class="'+c+'">'+l+'</a>');
+						else
+							r = en('<a href="mailto:'+e+'" class="'+c+'">'+l+'</a>');
+						document.getElementById("sample").innerHTML = sdc(r);
+						eform.code.value = '<script language="JavaScript" type="text/javascript">dc(\''+r+'\');<\/script><noscript><font color="red">Javascripting is Disabled</font></noscript>';
+					}
+      			</script>
+                <table border="0" cellpadding="0" cellspacing="0" width="500">
+                  <tbody>
+                    <tr valign="top">
+                      <td align="center" width="250">
+                          <b>E-mail address</b> <br>
+                            <input size="40" name="email" onClick="this.select()">
+                            <br>
+                            <b><br>
+                            Linking Text</b><br>
+                            <input size="40" name="linktext" onClick="this.select()">
+                            <br>
+                            <b><br>Subject (optional)</b><br>
+                            <input size="40" name="subject" onClick="this.select()">
+						    <br>
+                            <b><br>CSS Class</b><br>
+                            <input size="40" name="class" onClick="this.select()">
+                          <br><br>
+                            <input onClick="createmail(f1);return false;" value="Create Safe Email Link" name="Submit" type="button">
+                            <b><br>
+                            <noscript>
+                            Javascript must be enabled
+                            </noscript>
+                            </b>
+                      </td>
+                      <td align="center" width="250"><b>Sample</b><br>
+                        <br>
+                        <table align="center" bgcolor="#e7ebf6" border="0" cellpadding="5" cellspacing="0">
+                          <tbody>
+                            <tr>
+                              <td><div id="sample" align="center"></div></td>
+                            </tr>
+                          </tbody>
+                        </table></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p><b>1) Copy this</b> <b> code </b>into the Head of each page. only one required per page <br>
+                  <br>
+                  [ <a href="javascript:document.f1.headcode.select()">select all</a> ]<br>
+                  <textarea name="headcode" rows="4" wrap="VIRTUAL" cols="80" style="width: 500px;" onClick="this.select()">&lt;script
+language="JavaScript" type="text/javascript"&gt;function dc(s){c='';for
+(i=0;i&lt;s.length;i++){c+=String.fromCharCode(s.charCodeAt(i)-1);}document.write(c)}&lt;/script&gt;</textarea>
+                </p>
+                <p><b>2) Copy this code</b> wherever you want the email address link to appear.<br>
+                  <br>
+                  [ <a href="javascript:document.f1.code.select()">select all</a> ]<br>
+                  <textarea name="code" rows="4" wrap="VIRTUAL" cols="80" style="width: 500px;" onClick="this.select()"></textarea>
+                </p></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+  </tbody></table>
+</form>
+
+</body></html>
